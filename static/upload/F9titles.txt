@@ -1,0 +1,198 @@
+Customer Care Registry
+Smart EB Bill
+Geo Fence
+Digital Farming
+Personal Expense Predictor
+Organ Donor
+Petrol Bunk Location Finder
+Blood Bank - Python
+Car Automobile System
+Voice Pointer
+Ecommerce Voice
+News Emoj
+Tailor - PHP
+Holocaust - PHP
+Sarcasm Reviews - PHP
+
+Cloud Book Store
+College Management
+Education Monitor - School
+Student Complaint
+Student Internal Marks
+Campus Portal - PHP
+College Bus Tracking-PHP
+Library Management - PHP
+Bus Automobile - JSP
+Edu Scanner - JSP
+
+
+holocast,tailor,sarcusm,
+customer care registry, ration,smart eb,geo fence,digital farming
+personal expense,organ donar,petrol bunk location finder
+blood bank,car automobile,cloud book store
+voice pointer,ecommerce voice,news emoj
+
+college mgmt,cloud attendance,education monitor school,student complaint,student internal mark
+====================================================
+12-10-23
+1.ev charge
+2.online assessment
+3.petcare
+4.learning portal
+
+pay option no
+pet--direct meet
+design
+
+ev--charge level % alert before and recommend station nearby
+pet--medicine pic upload verify, injection
+staff monitor by admin
+
+chatbot
+test not secure
+offers--course provides, fees not show first
+
+
+2wheeler, bicycle charging
+pet--pharmacy
+email confirm
+terms and conditions, about us, remember pwd
+test not secure
+stu mointor by parent
+
+---------------------------------
+13-10-23
+1.virtual lab
+2.agro ecom
+3.handyman
+4.ecom inventory
+5.car pooling
+6.chatbot
+
+
+
+
+agro--video machine--murali
+	offer,deliver & charge--meena
+
+handyman---extra service --arthi
+	
+	reviews pos,neg --auto recomend
+
+car pooling
+	conditions--meena
+	veh location --meena
+
+chatbot----voice, translate--murga
+	share---meena
+	chatbot performance, not answer--% & pie chart--arthi
+
+inventory
+	-->search more price--meena
+
+
+
+
+===
+hr--sw---join form--attendance--leave notify to parent msg
+===
+holocast,tailor,sarcusm,
+customer care registry, ration,smart eb,geo fence,digital farming
+personal expense,organ donar,petrol bunk location finder
+blood bank,car automobile,cloud book store
+voice pointer,ecommerce voice,news emoj
+
+college mgmt,cloud attendance,education monitor school,student complaint,student internal mark,
+-------------------------------------------------------------
+14-10-2023
+1.vehicle acc
+2.cloud brain
+3.scrap collection
+4.agro culture
+5.hospital
+6.question generator
+7.smart study room
+
+
+pugal
+->V acc--alrt to ambu
+->healthcare - emergency --msg to ambulance contact
+->cloud br--subuser--need to show all data?
+->smart study--voice note
+
+meena
+->healthcare---patient previous history, doctor reply
+-> same paper--suffle question
+
+arthi
+->
+
+murali
+->cloud br--delete 
+->scrap--exchange option
+
+noor
+
+--------------------
+16-10-2023
+1.tailor
+2.customer care
+3.presonal expense
+4.organ
+5.petrol
+6.voice pointer
+7.cloud book 
+8.clg mgt
+
+
+pugal
+-->petrol bunk---user location,contact, helpline
+-->voice pointer----history,different voice, read text
+-->book store
+-->personal exp pred
+-->organ--
+-->tailor--
+-->college--
+-->customer care
+
+murali
+-->organ--
+-->personal exp----month end notify expense details
+-->tailor--
+-->customer care registry-----hardware
+-->college--
+-->petrol--
+-->voice pointer--sign langu
+-->book store--book exchange,book sale
+
+noor
+-->tailor--cloth give,pick cloth, reviews, free alteration, days, dry cleaning
+-->customer care--category req by custome, admin allot agent
+-->personal exp--alert max expense or save money, 
+-->organ--other district,
+-->petrol--same petrol offer usage
+-->voice --
+-->book---cash on deli,buy one get one, many orders money deduct
+-->college---notify 
+
+
+
+arthi
+-->petrol--other service--air,mechanic
+-->voice pointer--
+-->book store--soft copy pdf
+-->tailor--free trial by tailor,photo video to tailor
+-->organ--
+-->college--cultural,sports notify
+-->personal--compre previois month,this month notify
+-->customer--emergency time-priority
+
+meena
+-->tailor--cancel-customer,free altera
+-->customer care--
+-->personal exp--saving goals--20 % save, msg-remainder expense, credit by bank or admin
+-->organ--
+-->petrol--petrol bunk time--open/close
+-->voice--language 
+-->book--
+-->college--

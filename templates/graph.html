@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Cloud</title>
+<style>
+
+/* #flex{
+   height: 100vh;
+   
+   display: flex;
+   justify-content:center;
+   text-align: center;
+   font-size: large;
+   font-family: 'Courier New', Courier, monospace;
+   background-image: url("../static/images/UPLOADED.mp4");
+   background-image: no-repeat;
+   background-image: fixed;
+   background-position: fixed;
+  background-size:   cover;
+  background-position: 50%;
+} */
+#fasta{
+   /* position: absolute;
+   margin-top: 130px;
+   font-style: italic;
+   font-weight: 700;
+   font-size: 34px; */
+   
+   
+  display: -webkit-box;
+   display: -ms-flexbox;  
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: start;
+          
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  /* color: rgb(208, 176, 133); */
+          justify-content: center;
+}
+#myVideo {
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+span{
+   font-family: 'Raleway', sans-serif;
+   background: #000000 none repeat scroll 0 0;
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 2rem 3rem 0;
+    mix-blend-mode: overlay;
+    padding: 5px 15px;
+    text-align: center;
+   margin-top:115px ;
+  font-size: 1.95rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px;
+}
+</style>
+</head>
+
+<body>
+<div id="flex">
+   <video autoplay muted loop id="myVideo">
+      <source src="../static/images/UPLOADED.mp4" type="video/mp4">
+   </video>
+</div>
+<h3 id="fasta"><span>File Uploaded and Fasta File Created...</span></h3>
+	<script>
+//Using setTimeout to execute a function after 5 seconds.
+setTimeout(function () {
+   //Redirect with JavaScript
+   window.location.href= '/view_graph?fid={{fid}}';
+}, 5000);
+</script>
+</body>
+</html>

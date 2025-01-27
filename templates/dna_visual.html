@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>DNA</title>  
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../static/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="../static/css/pogo-slider.min.css">
+	<!-- Site CSS -->
+    <link rel="stylesheet" href="../static/css/style.css">    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../static/css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+<!--
+.style1 {
+	color: #003399;
+	font-weight: bold;
+}
+-->
+    </style>
+
+</head>
+<body >
+
+	
+<form name="form1" method="post" action="">
+	  
+
+	 
+	
+	{% for rs in data %}
+			{% for rs2 in rs[0] %}
+			&nbsp;
+			{% endfor %}
+	{{rs[1]}}<br />
+	{% endfor %}
+	
+	
+	{% if st=="1" %}
+	<script>
+//Using setTimeout to execute a function after 5 seconds.
+setTimeout(function () {
+   //Redirect with JavaScript
+   window.location.href= '/dna_visual?act={{act}}&mvalue={{mvalue}}&fid={{fid}}';
+}, 500);
+</script>
+
+	{% else %}
+		
+			
+		{% for d1 in dd %}
+				{% for rs3 in d1[0] %}
+			&nbsp;
+			{% endfor %}
+		{{d1[1]}}<br>
+		{% endfor %}
+		
+		<br><p align="center">Fasta File Created</p>
+		
+		<script>
+//Using setTimeout to execute a function after 5 seconds.
+setTimeout(function () {
+   //Redirect with JavaScript
+   window.parent.location.href= '/graph?fid={{fid}}';
+}, 3000);
+</script>
+	  {% endif %}
+	  
+	  
+	  
+	  <p align="center">&nbsp; </p>
+  <p align="center">&nbsp;</p>
+</form>
+	<!-- End Contact -->
+	
+	<!-- Start Subscribe -->
+
+	<!-- End Subscribe -->
+	
+	<!-- Start Footer -->
+
+	<!-- End Footer -->
+	
+	
+
+	<!-- ALL JS FILES -->
+
+</body>
+</html>
